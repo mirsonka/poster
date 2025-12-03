@@ -1,0 +1,37 @@
+@keyframes snowfall_1 {
+    0% {
+        transform: translateY(0px);
+    }
+
+    100% {
+        transform: translateY(700px);
+    }
+}
+
+@keyframes snowfall_2 {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(350px);
+    }
+
+    50.01%{
+        transform: translateY(-350px);
+    }
+}
+
+@keyframes shake {
+    0% {
+        transform: translateX(-10px);
+    }
+
+    50% {
+        transform: translateX(10px);
+    }
+
+    100% {
+        transform: translateX(-10px);
+    }
+}
